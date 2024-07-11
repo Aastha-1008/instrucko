@@ -1,0 +1,391 @@
+.FooterSection{
+    font-family: "Poppins", sans-serif;
+    h3{
+        color: rgb(248 132 8);
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    h4{
+        color: white;
+        font-weight: 500;
+    }
+    ul{
+        margin-bottom: 1rem;
+    }
+    li{
+        list-style: none;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.8rem;
+        margin-left: -2rem;
+        cursor: pointer;
+    }
+    .upperFooter{
+        background-color: rgb(36 45 60);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 0rem 3rem;
+        .section{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            column-gap: 2rem;
+            row-gap:2rem;
+           .footerSection1{
+                width: 30%;
+                p{
+                    padding-top: 1rem;
+                    font-size: 12.5px;
+                    line-height: 1.8rem;
+                    color: gray;
+                }
+           }
+           .footerSection2{
+                width: 40%;
+                .worksheetTopic{
+                    display: flex;
+                    flex-direction: column; 
+                    font-size: 12.5px;
+                    cursor: pointer;
+                }
+                .liveVideos{
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 2rem;
+                }
+           }
+           .footerSection3{
+                width: 30%;
+                
+           }
+        }
+        
+        
+    }
+    .lowerFooter,.connectSection{
+        background-color: #181E27;
+        color: white;
+    }
+    .lowerFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0rem;
+        .emailSubscribe{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            .lowerFooterSection1{
+                width: 40%;
+                .emailSubscribeBtn{
+                    margin-top: 1rem;
+                    .email{
+                        height: 3rem;
+                        width: 15rem;
+                        padding: 0rem 1rem;
+                        border: 0px;
+                        color: white;
+                        background-color: #fff3;
+                        border-radius: 10px;
+                    }
+                    button{
+                        border: 0px;
+                        color: rgb(0, 119, 255);
+                        height: 3rem;
+                        width: 8rem;
+                        border-radius: 10px;
+                        margin-left: -2rem;
+                        font-weight: 600;
+                    }
+                    button:hover{
+                        color: white;
+                        background-color: rgb(0, 119, 255);
+                    }
+                }
+            }
+            .lowerFooterSection2{
+                width: 30%;
+                .instruckoLinks1{
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 2rem;
+                }
+            }
+            .lowerFooterSection3{
+                width: 30%;
+            }
+        }
+    }
+    .connectSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .section{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            border-top: 1px solid gray;
+            padding-top: 1rem;
+            
+            .socialMedia{
+                width: 40%;
+                display: flex;
+                align-items: center;
+                .socialMediaIcon{
+                    display: flex;
+                    column-gap: 1rem;
+                    margin-left: 3rem;
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+            .connectLinks{
+                width: 60%;
+                ul{
+                    display: flex;
+                    column-gap: 4rem;
+                    justify-content: right;
+                    li{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media(max-width: 1350px){
+    .FooterSection{
+        li{
+            font-size: 12.3px;
+            font-weight: 400;
+            line-height: 1.8rem;
+        }
+        .upperFooter{
+            .section{
+                width: 80%;
+                column-gap: 1rem;
+                .footerSection1{
+                    width: 30%;
+                }
+                .footerSection2{
+                    width: 43%;
+                    .worksheetTopic{
+                        font-size: 12px;
+                    }
+                    .liveVideos{
+                        font-size: 12px;
+                        column-gap: 0rem;
+                    }
+                }
+                .footerSection3{
+                    width: 27%;
+                }
+            }
+        }
+        .lowerFooter{
+            li{
+                font-size: 11px;
+            }
+            .emailSubscribe{
+                width: 80%;
+                column-gap: 2rem;
+                .lowerFooterSection1{
+                    padding-right: 3.2rem;
+                    .emailSubscribeBtn{
+                        .email{
+                            width: 5rem;
+                        }
+                    }
+                }
+                .lowerFooterSection2{
+                    width: 35%;
+                    .instruckoLinks1{
+                        column-gap: 1rem;
+                        
+                    }
+                }
+            }
+        }
+        .connectSection{
+            .section{
+                width: 80%;
+                .socialMedia{
+                    .socialMediaIcon{
+                        margin-left: 1rem;
+
+                    }
+                }
+                .connectLinks{
+                    ul{
+                        column-gap: 2.6rem;
+                        li{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    .FooterSection{
+        .upperFooter{
+            .section{
+                width: 95%;
+            }
+        }
+        .lowerFooter{
+            .emailSubscribe{
+                width: 95%;
+            }
+        }
+        .connectSection{
+            .section{
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    .FooterSection{
+        li{
+            font-size: 12.3px;
+            font-weight: 400;
+            line-height: 1.8rem;
+        }
+        .upperFooter{
+            .section{
+                width: 80%;
+                column-gap: 1rem;
+                flex-direction: column;
+                .footerSection1{
+                    width: 100%;
+                }
+                .footerSection2{
+                    width: 100%;
+                    .worksheetTopic{
+                        font-size: 12px;
+                    }
+                    .liveVideos{
+                        font-size: 12px;
+                        column-gap: 0rem;
+                    }
+                }
+                .footerSection3{
+                    width: 100%;
+                }
+            }
+        }
+        .lowerFooter{
+            .emailSubscribe{
+                width: 80%;
+                column-gap: 2rem;
+                flex-direction: column;
+                .lowerFooterSection1{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .emailSubscribeBtn{
+                        margin-bottom: 2rem;
+                        .email{
+                            width: 15rem;
+                        }
+                    }
+                }
+                .lowerFooterSection2{
+                    width: 100%;
+                    .instruckoLinks1{
+                        flex-direction: column;
+                        li{
+                            font-size: 18px;
+                            padding-bottom: .5rem;
+                            border-bottom: 1px solid gray;
+                        }
+                    }
+                }
+                .lowerFooterSection3{
+                    width: 100%;
+                    li{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .connectSection{
+            .section{
+                width: 80%;
+                flex-direction: column;
+                .socialMedia{
+                    width: 100%;
+                    justify-content: center;
+                    .socialMediaIcon{
+                        margin-left: 1rem;
+
+                    }
+                }
+                .connectLinks{
+                    width: 100%;
+                    ul{
+                        column-gap: 2.6rem;
+                        justify-content: center;
+                        column-gap: 3rem;
+                        li{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 800px){
+    .FooterSection{
+        .upperFooter{
+            .section{
+                .footerSection2{
+                    .liveVideos{
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+        .lowerFooter{
+            .emailSubscribe{
+                .lowerFooterSection1{
+                    .emailSubscribeBtn{
+                        margin-bottom: 2rem;
+                        .email{
+                            width: 10rem;
+                        }
+                    }
+                }
+            }
+        }
+        .connectSection{
+            .section{
+                .connectLinks{
+                    ul{
+                        column-gap: 3rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
