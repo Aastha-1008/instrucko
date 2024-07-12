@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Header from '../src/components/Header/Header.jsx';
+import Home from './components/Home/Home.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className='mainSection'>
       <Header/>
-      <h1 style={{height: '50vh'}}>Hii</h1>
+      <Home/>
       <Footer/>
     </div>
   )

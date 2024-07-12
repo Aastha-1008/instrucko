@@ -1,0 +1,61 @@
+.homeSection{
+    font-family: "Poppins", sans-serif;
+    padding-top: 8.25rem;
+    h1{
+        font-size: 58px;
+        line-height: 55px;
+        font-weight: 600;
+    }
+    h5{
+        color: gray;
+        font-weight: 300;
+    }
+    h6{
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(118 118 118);
+        line-height: 1.75rem;
+    }
+    span{
+        color: rgb(235 87 87);
+    }
+    .coverSection{
+        max-width: 1000px;
+        margin: 0rem auto;
+        .coverTopSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .coverLeftSection{
+                width: 50%;
+                padding-right: 0.6rem 1.5rem 0.6rem 0.6rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .coverRightSection{
+                width: 50%;
+                padding:0.6rem 0.6rem 0.6rem 7rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px){
+
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 640px){
+
+}
