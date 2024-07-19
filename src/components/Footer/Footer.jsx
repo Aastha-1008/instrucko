@@ -140,7 +140,7 @@ export default function Footer() {
   ]
 
   return (
-    <div class= "FooterSection">
+    <div className= "FooterSection">
       <div className='upperFooter'>
         <div className='section'>
           <div className='footerSection1'>

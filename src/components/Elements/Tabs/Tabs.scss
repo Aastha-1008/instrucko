@@ -1,0 +1,119 @@
+.tab-container{
+    max-width: 780px;
+    margin: 4rem auto;
+    ul{
+        list-style: none;
+        text-align: left;
+        padding: 0rem;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    
+    
+    .tab-header{
+        z-index: 10;
+        display: flex;
+        margin-bottom: -12px;
+        
+        ul{
+            display: flex;
+        }
+        
+        .tab{
+            background-color: rgb(250 250 250 );
+            button{
+                color: #7e7e7e;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                border: 0px;
+                cursor: pointer;
+                border-radius: 8px 8px 0px 0px;
+                padding: 1rem;
+                border: 1px solid rgb(235 235 235 );
+                background-color: rgb(250 250 250 );
+            }
+        }
+        .active{
+            border: 1px solid #ff929266;
+            border-bottom: 0px;
+            button{
+                margin-top: -.5rem;
+                border: 1px solid #ff929266;
+                border-bottom: 0px;
+                font-size: 18px;
+                padding: 1.5rem 1.5rem 1rem 1.5rem;
+                background-color: rgb(255 244 227 );
+                color: orangered;
+            }
+        }
+    }
+    .tab-content{
+        z-index: 5;
+        border: 1px solid #ff929266;
+        background-color: rgb(255 244 227 );
+        padding: 2rem 1rem;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        justify-content: space-between;
+        display: flex;
+        .tab-content-left{
+            width: 60%;
+            padding: 1rem;
+            .bookingBtn{
+                display: flex;
+                margin-top: 3rem;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+        .tab-content-right{
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 770px){
+    .tab-container{
+        .tab-header{
+            margin-bottom: 0rem;
+            .tab{
+                border: 0px;
+                button{
+                    border: 0px;
+                    font-size: 12px;
+                    padding: .5rem;
+                }
+            }
+            .active{
+                button{
+                    padding: .5rem;
+                    font-size: 12px;
+                    color: rgb(27 83 244);
+                    text-decoration: underline solid rgb(27 83 244) 3px;
+                    margin-top: 0rem;
+                    border: 0px;
+                    background-color: rgb(250 250 250 );
+                }
+            }
+        }
+        .tab-content{
+            flex-direction: column-reverse;
+            .tab-content-right{
+                width: 80%;
+                margin: 0rem auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .tab-content-left{
+                width: 100%;
+                .bookingBtn{
+                    justify-content: left;
+                    column-gap: 3rem;
+                }
+            }
+        }
+    }
+}

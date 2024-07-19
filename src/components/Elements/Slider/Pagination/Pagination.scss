@@ -1,0 +1,21 @@
+.pagination-container{
+    display: flex;
+    .pagination-left-button,.pagination-right-button{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        img{
+            width: 20%;
+        }
+    }
+    .pagination-content{
+        width: 60%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .pagination-right-button{
+        justify-content: left;
+    }
+}
