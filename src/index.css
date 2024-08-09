@@ -1,3 +1,18 @@
 *{
     margin: 0rem;
 }
+.redFont {
+    color: rgb(235 87 87);
+}
+.orangeFont{
+    color: rgb(248 132 8);
+}
+.greenFont{
+    color: rgb(70 202 92);
+}
+.pinkFont{
+    color: rgb(244 27 183);
+}
+.blueFont{
+    color: rgb(27 83 244);
+}

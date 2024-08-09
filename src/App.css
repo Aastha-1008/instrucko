@@ -2,3 +2,29 @@
 .mainSection{
     box-sizing: border-box;
 }
+.gray-color{
+    color: rgb(118, 118, 118);
+}
+
+.disable {
+    display: none;
+}
+
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.bg-blue{
+    background-color: rgb(27 83 244);
+}
+.bg-green{
+    background-color: rgb(70 202 92);
+}
+.bg-white{
+    background-color: white;
+}

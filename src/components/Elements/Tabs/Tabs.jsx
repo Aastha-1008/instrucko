@@ -20,7 +20,7 @@ export default function Tabs({subjects}) {
             className={` ${activeTab === subject.subjectName ? 'active' : ''} tab`} 
             onClick={() => handleTabClick(subject.subjectName)}
           >
-            <button>{subject.subjectName}</button>
+            <button >{subject.subjectName}</button>
           </li>       
         ))}
         </ul>
@@ -35,7 +35,7 @@ export default function Tabs({subjects}) {
             ))}
           </ul>
           <div className='bookingBtn'>
-            <button className='book-trial'>Book a Trial</button>
+            <button className='book-trial bg-blue'>Book a Trial</button>
             <p>Teachers: India & UK</p>
           </div>
         </div>

@@ -1,0 +1,14 @@
+.basicInfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    padding: 2rem 2rem;
+    input{
+        padding: .8rem;
+        font-size: .8rem;
+        border-radius: 10px;
+        border: 1px solid gray;
+        color: gray;
+    }
+}

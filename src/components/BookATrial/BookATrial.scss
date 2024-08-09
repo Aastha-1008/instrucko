@@ -1,0 +1,47 @@
+.bookATrialSection{
+    padding: 13rem 0rem;
+    background-color: rgb(255 236 191);
+    h1{
+        font-size: 52px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .form{
+        background-color: white;
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 3rem 10rem;
+        border-radius: 10px;
+        .progressBar{
+            height: .05rem;
+            background-color: gray;
+        }
+        .form-btn{
+            display: flex;
+            row-gap: 2rem;
+            column-gap: 2rem;
+            justify-content: center;
+            button{
+                width: 6rem;
+                padding: .5rem 1rem;
+                border: 0px;
+                font-size: 1.2rem;
+                border-radius: 10px;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+            .benefits-btn{
+                display: flex;
+                column-gap: 2rem;
+                row-gap: 2rem;
+                button{
+                    width: 20rem;
+                    border: 1px solid rgb(27 83 244);
+                }
+            }
+            .next{
+                color: white;
+            }
+        }
+    }
+}

@@ -32,26 +32,21 @@
         text-align: center;
     }
 
-    span {
-        color: rgb(235 87 87);
-    }
-
     button {
         color: white;
         border: 0px;
         border-radius: 8px;
         padding: 1rem 2rem;
         font-weight: 600;
-        background-color: rgb(27 83 244);
     }
-    .disable {
-        display: none;
-    }
-    
 
     .coverSection {
         max-width: 1000px;
         margin: 0rem auto 3rem;
+
+        h6 {
+            text-align: left;
+        }
 
         .coverTopSection {
             display: flex;
@@ -60,6 +55,8 @@
             .coverLeftSection {
                 width: 50%;
                 display: flex;
+
+                
                 flex-direction: column;
                 align-items: center;
 
@@ -83,7 +80,7 @@
                 margin-top: 2rem;
 
                 p {
-                    font-size: 0.825rem;
+                    font-size: 0.9rem;
                     font-weight: 500;
                     color: rgb(63, 63, 63);
                 }
@@ -108,7 +105,8 @@
 
         h5 {
             max-width: 30rem;
-            margin: 0rem auto;
+            margin: 1rem auto;
+            line-height: 1.5rem;
             color: rgb(118 118 118);
         }
 
@@ -122,7 +120,7 @@
     }
 
     .distinctLang {
-        padding: 1rem 0rem;
+        padding: 1rem 0rem 8rem;
         background-image: radial-gradient(at left bottom, rgba(255, 146, 146, 0.15) 0%, rgb(255, 255, 255) 50%);
 
         h3 {
@@ -144,69 +142,9 @@
         p {
             text-align: center;
             max-width: 30rem;
-            margin: 0rem auto;
+            margin: 1rem auto;
+            font-size: 18px;
             color: rgb(118 118 118);
-        }
-    }
-
-    .whythis {
-        max-width: 1000px;
-        margin: 0rem auto;
-
-        h6 {
-            margin-bottom: 0rem;
-        }
-
-        span {
-            color: rgb(70, 202, 92);
-        }
-
-        p {
-            text-align: center;
-            color: rgb(118 118 118);
-            max-width: 32rem;
-            margin: 0rem auto;
-        }
-
-        .whyContent {
-            display: flex;
-            margin: 2rem 0rem;
-            padding: 1rem;
-
-            .whycontent-left,
-            .whycontent-right {
-                width: 30%;
-
-                h5 {
-                    color: black;
-                    font-weight: 500;
-                    text-align: left;
-                    margin-bottom: .5rem;
-                }
-
-                p {
-                    text-align: left;
-                    font-size: 14px;
-                    margin-bottom: 2rem;
-                }
-
-                .why-box {
-                    margin-bottom: 1rem;
-                }
-            }
-
-            .whycontent-centre {
-                width: 40%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 1rem;
-
-                button {
-                    width: 40%;
-                    margin: 4rem auto 0rem;
-                }
-            }
         }
     }
 
@@ -216,14 +154,13 @@
         padding: 2rem;
         border-radius: 10px;
         margin-top: 16rem;
-        background-color: rgb(27 83 244);
-
 
         .info-buildFuture {
             position: relative;
 
             .buildFutureContent {
                 width: 55%;
+
                 h1 {
                     color: white;
                 }
@@ -251,60 +188,70 @@
         }
     }
 
-    .learningMap{
+    .learningMap {
         max-width: 1000px;
         margin: 6rem auto;
-        h2{
+
+        h2 {
             width: 60%;
             margin: 0rem auto;
         }
-        h6{
+
+        h6 {
             font-size: 14px;
             margin-bottom: 0rem;
         }
-        p{
+
+        p {
             width: 50%;
             color: rgb(118 118 118);
-            margin: 0rem auto;
+            margin: 1rem auto;
+            font-size: 18px;
             text-align: center;
         }
-        span{
-            color: rgb(244 27 183 );
-        }
-        .button{
+
+        .button {
             display: flex;
             justify-content: center;
         }
-        .learning{
-            display: flex; 
+
+        .learning {
+            display: flex;
             margin: 3rem 0rem;
-            .learning-container{
+
+            .learning-container {
                 position: relative;
-                .learningway{     
+
+                .learningway {
                     display: flex;
                     flex-direction: column;
-                    img{
+
+                    img {
                         width: 12%;
                         margin: 0rem auto;
-                    }       
-                    .title{
+                    }
+
+                    .title {
                         color: black;
                         font-size: 18px;
                         font-weight: 600;
                         padding-top: 1rem;
                     }
-                    .tagline{
+
+                    .tagline {
                         width: 70%;
                         font-size: 14px;
-                        padding-top: 0.5rem;
+                        padding-top: 1rem;
                     }
-                    .absolute{
+
+                    .absolute {
                         width: 50%;
                         position: absolute;
                         right: -20%;
                         top: 0%;
                     }
-                    .curve{
+
+                    .straight {
                         display: none;
                     }
                 }
@@ -312,6 +259,133 @@
         }
     }
 
+    .testimonialSection {
+        padding: 3rem 0rem;
+        background-image: radial-gradient(at left bottom, rgba(23, 166, 221, 0.14) 0%, rgb(255, 255, 255) 100%);
+
+        .reviewContainer {
+            max-width: 1000px;
+            margin: 2rem auto;
+
+            h2 {
+                font-size: 2rem;
+                max-width: 40rem;
+                margin: 0rem auto;
+            }
+        }
+
+        .testimonialTag {
+            color: rgb(27 83 244);
+            max-width: 38rem;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0rem auto;
+        }
+    }
+
+    .featuredIn {
+        max-width: 1000px;
+        padding: 1rem;
+        overflow: hidden;
+        margin: 3rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .featuredHeading {
+            width: 20%;
+        }
+
+        .featuredBrand {
+            width: 80%;
+
+            ul {
+                display: flex;
+                row-gap: 1rem;
+                flex-wrap: wrap;
+                column-gap: 1rem;
+
+                .brandBox {
+                    width: 16%;
+
+                    img {
+                        width: 100px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .academicDiary {
+        max-width: 1000px;
+        margin: 0rem auto;
+        padding: 1rem;
+
+        h6,
+        h2 {
+            text-align: left;
+            margin: 0rem;
+        }
+
+        .diaries {
+            margin-bottom: 4rem;
+
+            .diary-container {
+                display: flex;
+                column-gap: 1rem;
+                margin-top: 2rem;
+
+                .diary-image {
+                    width: 33%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .diary-content {
+                    width: 40%;
+                    margin-left: 1.75rem;
+
+                    h5 {
+                        font-size: 1rem;
+                        font-weight: 600;
+                        color: rgb(27 83 244);
+                    }
+
+                    h2 {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: .9rem;
+                        margin: .5rem 0rem;
+                    }
+                }
+            }
+        }
+
+        a {
+            color: orangered;
+        }
+    }
+
+    .childJourney {
+        background-color: rgb(27 83 244);
+        color: white;
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+
+        h1 {
+            font-size: 42px;
+            text-align: center;
+        }
+    }
 }
 
 
@@ -357,23 +431,27 @@
         .buildFuture {
             margin: 0rem 2rem;
             padding: 2rem;
+
             .info-buildFuture {
                 .buildFutureContent {
                     width: 55%;
+
                     h1 {
                         font-size: 45px;
                         line-height: 3.5rem;
                     }
-   
+
                     .buildFutureImage {
                         position: absolute;
                         bottom: -18%;
                         right: -10%;
-    
+
                     }
                 }
             }
         }
+
+
     }
 }
 
@@ -393,25 +471,14 @@
             }
         }
 
-        .whythis {
-            .whyContent {
-
-
-                .whycontent-centre {
-
-                    button {
-                        max-width: 40%;
-                        padding: 1rem;
-                    }
-                }
-            }
-        }
-        .learningMap{
+        .learningMap {
             padding: 1rem;
-            h2{
+
+            h2 {
                 width: 100%;
             }
         }
+
     }
 
 }
@@ -429,82 +496,120 @@
             }
         }
 
-        .whythis {
-            .whyContent {
-                flex-direction: column;
-
-                .whycontent-left,
-                .whycontent-right {
-                    width: 100%;
-
-                    h5 {
-                        font-size: 1rem;
-                        text-align: center;
-                    }
-
-                    p {
-                        text-align: center;
-                    }
-                }
-
-                .whycontent-centre {
-                    width: 100%;
-                    order: 1;
-                }
-
-                .whycontent-left {
-                    order: 2;
-                }
-
-                .whycontent-right {
-                    order: 3;
-                }
-
-                .whycontent-centre {
-                    button {
-                        width: 50%;
-                    }
-                }
-            }
-        }
-
         .buildFuture {
             margin: 0rem;
             border-radius: 0px;
             padding: 2rem 1rem;
+
             .info-buildFuture {
                 .buildFutureContent {
                     width: 60%;
+
                     h1 {
                         font-size: 18px;
                         line-height: 1rem;
                     }
-                    p{
+
+                    p {
                         font-size: 12px;
                     }
-   
+
                     .buildFutureImage {
                         bottom: -18%;
                         right: -30%;
-                        img{
+
+                        img {
                             width: 50%;
                         }
                     }
                 }
             }
         }
-        .learningMap{
-            .learning{
+
+        .learningMap {
+            h6 {
+                font-size: 15px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                width: 100%;
+                font-size: 15px;
+            }
+
+            .learning {
                 display: flex;
                 flex-direction: column;
-                .learning-container{
-                    .learningway{
-                        .curve{
+
+                .learning-container {
+                    .learningway {
+                        .tagline {
+                            font-size: 16px;
+                        }
+
+                        .curve {
                             display: none;
                         }
-                        .straight{
+
+                        .straight {
                             display: block;
+                            height: 2rem;
+                            position: relative;
+                            right: 0%;
+                            display: flex;
+                            margin: 1rem auto;
                         }
+                    }
+                }
+            }
+        }
+
+        .featuredIn {
+            flex-direction: column;
+
+            .featuredHeading {
+                width: 100%;
+                text-align: center;
+                margin: 1rem auto;
+            }
+
+            .featuredBrand {
+                width: 100%;
+
+                ul {
+                    flex-wrap: wrap;
+                    row-gap: 2rem;
+                    column-gap: 2rem;
+                    justify-content: space-around;
+
+                    .brandBox {
+                        width: 25%;
+
+                        img {
+                            width: 150px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .academicDiary {
+            .diaries {
+                .diary-container {
+                    flex-direction: column;
+                    column-gap: 1rem;
+                    margin-top: 2rem;
+
+                    .diary-image {
+                        width: 100%;
+                    }
+
+                    .diary-content {
+                        width: 100%;
                     }
                 }
             }
@@ -543,8 +648,24 @@
                     .buildFutureImage {
                         bottom: -18%;
                         right: -70%;
-                        img{
+
+                        img {
                             width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .featuredIn {
+            .featuredBrand {
+                ul {
+                    .brandBox {
+                        width: 30%;
+
+                        img {
+                            width: 120px;
+                            height: 20px;
                         }
                     }
                 }

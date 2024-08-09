@@ -1,0 +1,26 @@
+.paidBooking-section{
+    padding: 2rem 1rem;
+    h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .course299,.course799{
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        .subjectName{
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 8px;
+            padding: .5rem;
+            display: inline;
+            text-align: center;
+            color: rgb(36 45 60);
+
+        }
+    }
+    .course799{
+        grid-template-columns: auto auto auto auto;
+    }
+}
