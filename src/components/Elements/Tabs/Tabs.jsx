@@ -35,7 +35,7 @@ export default function Tabs({subjects}) {
             ))}
           </ul>
           <div className='bookingBtn'>
-            <button className='book-trial bg-blue'>Book a Trial</button>
+          <a href = "/trial-class"><button className='book-trial bg-blue'>Book a Trial</button></a>
             <p>Teachers: India & UK</p>
           </div>
         </div>

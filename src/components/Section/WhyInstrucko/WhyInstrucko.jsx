@@ -21,7 +21,7 @@ export default function WhyInstrucko() {
                 </div>
                 <div className='whycontent-centre'>
                     <img src={whyInstrucko} alt="whyInstrcko" />
-                    <button className='bg-blue'>Book a trial</button>
+                    <a href = "/trial-class"><button className='bg-blue'>Book a trial</button></a>
                 </div>
                 <div className='whycontent-right'>
                     <div className='why-box'>

@@ -34,7 +34,7 @@ export default function Header() {
                     <p>Sign In</p>
                 </div>
                 <div className='trialBtn'>
-                    <button> Book a Trial</button>
+                <a href = "/trial-class"><button> Book a Trial</button></a>
                 </div>
             </div>
             

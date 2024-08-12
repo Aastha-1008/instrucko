@@ -8,13 +8,13 @@ export default function BookPaid() {
 
   return (
     <div className='paidBooking-section'>
-      <h2>Select Subjects with India Teacher ( Rs. 299 )</h2>
+      <h2>Select Subjects with India Teacher ( ₹ 299 )</h2>
       <div className='course299'>
         {course299.map((subjectName)=>(
             <div className='subjectName'>{subjectName}</div>
         ))}
       </div>
-      <h2>Select Subjects with India Teacher ( Rs. 799 )</h2>
+      <h2>Select Subjects with India Teacher ( ₹ 799 )</h2>
       <div className='course799'>
         {course799.map((subjectName)=>(
             <div className='subjectName'>{subjectName}</div>

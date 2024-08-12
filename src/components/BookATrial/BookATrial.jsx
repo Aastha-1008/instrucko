@@ -48,7 +48,7 @@ export default function BookATrial() {
             <div className='form-btn'>
                 {step==0 && <button className='bg-blue' style={{color: 'white'}} onClick={nextStep}>Next</button>}
                 {step==1 && <div className='benefits-btn'>
-                    <button className='bg-blue' style={{color: 'white'}} onClick={nextStep}>Book Paid Trial Rs 299</button>
+                    <button className='bg-blue' style={{color: 'white'}} onClick={nextStep}>Book Paid Trial ₹ 299</button>
                     <button className='bg-white' style={{color: 'rgb(27 80 240)'}}>Continue with a free trial</button></div>
                 }
             </div>

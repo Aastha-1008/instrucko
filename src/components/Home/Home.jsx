@@ -157,7 +157,7 @@ export default function Home() {
                     <div className='coverLeftSection'>
                         <h1>Your child's story <span className='redFont'>begins here</span></h1>
                         <h6>Unleash your child's potential with our best online learning platform for kids. Personalised online teaching built upon unique storytelling methods. Engaging learning which delivers exceptional outcomes.</h6>
-                        <button className='bg-blue'>Book a Trial</button>
+                        <a href = "/trial-class"><button className='bg-blue'>Book a Trial</button></a>
                     </div>
                     <div className='coverRightSection'>
                         <img src={coverImage} alt="coverphoto" />
@@ -206,7 +206,7 @@ export default function Home() {
                     <div className='buildFutureContent'>
                         <h1>Build their future from just ₹180 per class</h1>
                         <p>We know youd pay anything to ensure your kid's future success. Fortunately, it's even more affordable than you may think. Our best online learning platform provides trial classes. Start with it now!</p>
-                        <button>Book a Trial</button>
+                        <a href = "/trial-class"><button>Book a Trial</button></a>
                         <div className='buildFutureImage'>
                             <img src={futureKid} alt="studentImage" />
                         </div>
@@ -246,7 +246,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='button'>
-                    <button className='bg-blue'>Book a Trial</button>
+                <a href = "/trial-class"><button className='bg-blue'>Book a Trial</button></a>
                 </div>
             </div>
 
@@ -310,7 +310,7 @@ export default function Home() {
 
             <div className='childJourney bg-blue'>
                 <h1> Your child's <span className='greenFont'>journey</span> begins here.</h1>
-                <button className='bg-green'>Book a Trial</button>
+                <a href = "/trial-class"><button className='bg-green'>Book a Trial</button></a>
             </div>
 
         </div>
