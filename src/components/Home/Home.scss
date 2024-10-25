@@ -39,6 +39,12 @@
         padding: 1rem 2rem;
         font-weight: 600;
     }
+    button:hover{
+        background-color: white;
+        color: rgb(27 83 244);
+        border: 1px solid  rgb(27 83 244);
+        transition: all 0.2s ease;
+    }
 
     .coverSection {
         max-width: 1000px;
@@ -173,6 +179,12 @@
                 button {
                     background-color: white;
                     color: rgb(27 83 244);
+                }
+                button:hover{
+                    background-color: rgb(27 83 244);
+                    color: white;
+                    border: 1px solid white;
+                    transition: all .2s ease;
                 }
 
                 .buildFutureImage {

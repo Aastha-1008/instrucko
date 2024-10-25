@@ -72,8 +72,6 @@
             .trialBtn {
                 display: flex;
                 width: 50%;
-                border-radius: 10px;
-                background-color: #007aff;
                 justify-content: center;
                 button {
                     color: white;
@@ -82,6 +80,12 @@
                     font-size: 14px;
                     border-radius: 10px;
                     background-color: #007aff;
+                }
+                button:hover{
+                    background-color: white;
+                    color: #007aff;
+                    border: 1px solid #007aff;
+                    transition: all .2s ease;
                 }
             }
         }   
